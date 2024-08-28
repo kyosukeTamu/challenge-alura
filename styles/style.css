@@ -158,6 +158,22 @@ main{
     display: none;
 }
 
-@media (max-width: 1200px) {
-    
+@media (min-width: 550px) and (max-width: 1200px) {
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    .contenido_salida { 
+        left: 20rem;
+        top: 50rem;
+        width: 57%;
+        height: 30rem;
+    }
+    .contenido_salida_img{
+        display: none;
+        bottom: 30rem;
+    }
+    .contenido_salida_copiar button{
+        bottom: 50rem;
+    }
 }
